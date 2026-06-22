@@ -1,0 +1,22 @@
+[project]
+name = "battsim"
+version = "0.1.0"
+description = "Battery simulator for SOC evolution based on charge/discharge models"
+authors = [
+    {name = "Javier Gracia f.javier.gracia.santiago@gmail.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
